@@ -1,10 +1,12 @@
-# 🏆 Home Advantage in FIFA World Cups: Myth or Measurable Reality?
+# 🏆 Home Advantage in FIFA World Cups: A Historical Data Analysis
+
+![Home Advantage Dashboard](Home_Advantage_Dashboard.png)
 
 ## 📌 Project Overview
 
-Does hosting the FIFA World Cup significantly increase a country's chances of success?
+This project investigates whether hosting the FIFA World Cup provides a measurable competitive advantage.
 
-This project explores the historical performance of World Cup host nations from 1930 to 2022, analyzing whether the so-called "home advantage" has persisted over time — or if it has diminished in the modern era.
+Key results show that while host nations historically overperformed, the effect has significantly declined in the modern era. Furthermore, hosting alone does not create champions — it amplifies existing football power.
 
 ---
 
@@ -22,7 +24,7 @@ This project explores the historical performance of World Cup host nations from 
 The dataset contains tournament-level information:
 
 - Year
-- Host
+- Host Nation
 - Champion
 - Runner-up
 - Third Place
@@ -47,12 +49,13 @@ The dataset contains tournament-level information:
 
 ## 🔎 Key Findings
 
-- Hosts won approximately **27.3%** of all tournaments historically.
-- Host nations reached the top 3 in **50.0%** of tournaments.
-- The advantage was significantly stronger before 1986.
+- Host nations won **27.3%** of all tournaments historically.
+- Hosts reached the podium in **50.0%** of World Cups.
+- Host podium probability declined from **66.7%** (Pre-1986) to **30.0%** (Post-1986).
+- 100% of host champions were already historical football powers.
 - Modern tournaments show a clear decline in host dominance.
 
-This suggests that globalization, professionalization, and tournament expansion may have reduced structural home advantage.
+This suggests that globalization, professionalization, and tournament expansion may have reduced structural home advantage. Hosting acts as a performance amplifier, not a performance creator.
 
 ---
 
@@ -61,7 +64,7 @@ This suggests that globalization, professionalization, and tournament expansion 
 - Dataset is aggregated at tournament level.
 - No match-level or team-level performance data.
 - No control for FIFA rankings or squad strength.
-- Small sample size (World Cups occur every four years).
+- Limited sample size (22 tournaments).
 
 ---
 
@@ -78,6 +81,7 @@ This suggests that globalization, professionalization, and tournament expansion 
 
 - Python
 - Pandas
+- NumPy
 - Matplotlib/Seaborn
 - Jupyter Notebook
 
