@@ -1,7 +1,7 @@
 # Home Advantage in FIFA World Cups
 ### Historical analysis · 1930–2022 · 22 editions
 
-![Dashboard](Home_Advantage_Dashboard.png)
+![Dashboard](Main_Dashboard.png)
 
 Does hosting the World Cup translate into competitive success — and has that changed over time?
 
